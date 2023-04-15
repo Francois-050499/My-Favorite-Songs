@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+body {
+    font-family: "Helvetica Neue",'UD デジタル 教科書体 NP-B',"Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+
+    margin: 0;
+    padding: 0;
+    height: 650px;
+    position: relative;
+    background:
+                radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.15) 30%, rgba(255,255,255,.3) 32%, rgba(255,255,255,0) 33%) 0 0,
+                radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.3) 13%, rgba(255,255,255,0) 14%) 0 0,
+                radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 17%, rgba(255,255,255,.43) 19%, rgba(255,255,255,0) 20%) 0 110px,
+                radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) -130px -170px,
+                radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) 130px 370px,
+                radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.2) 13%, rgba(255,255,255,0) 14%) 0 0,
+                linear-gradient(45deg, #ded46e 0%, #a7be70 20%, #5aa572 30%, #53a8a6 40%, #49aad2 50%, #5d87b7 60%, #695c98 70%, #a1689a 80%, #ce749c 90%, #cf737a 100%);
+                background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 120% 120%;
+                background-color: #a1689a;
+}
+
+/*
+Words
+*/
+
+.font-middle {
+    position: absolute;
+    display: block;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1.0px;
+}
+
+@keyframes moving {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.font-animation span {
+    animation: moving 3s backwards;
+    animation: moving 1.75s ease 0s infinite normal none running;
+} 
+
+.font-space {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;   
+}
+
+.font-space:hover {
+    letter-spacing: 2.5px;
+}
+
+.font-shadow-one {
+    text-shadow: 1px 2px 2px #3399ff,15px 8.5px 3px #3399ff;
+}
+
+.font-shadow-two {
+    text-shadow: 2px 2px 2px #cd5c5c,15px 8.5px 3px #cd5c5c;
+}
+
+@media screen and (max-width: 480px) {
+    .font-middle {
+        top: 50%;
+        left: 75%;
+        transform: translate(-75%, -60%);
+        font-size: 30px;
+    }
+
+    .font-space {
+        font-size: 20px;
+    }
+
+    .font-space-sub {
+        font-size: 20px;
+    }
+}
