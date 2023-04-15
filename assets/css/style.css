@@ -51,6 +51,10 @@ Words
     animation: moving 1.75s ease 0s infinite normal none running;
 } 
 
+.font-space-large {
+    margin: 60px 0;
+}
+
 .font-space {
     margin-top: 30px;
     font-size: 25px;
@@ -61,15 +65,35 @@ Words
     letter-spacing: 2.5px;
 }
 
+.font-shadow-zero {
+    text-shadow: 1px 2px 2px #3cb371,15px 8.5px 3px #3cb371;
+}
+
 .font-shadow-one {
-    text-shadow: 1px 2px 2px #3399ff,15px 8.5px 3px #3399ff;
+    text-shadow: 1px 2px 2px #4169e1,15px 8.5px 3px #4169e1;
 }
 
 .font-shadow-two {
-    text-shadow: 2px 2px 2px #cd5c5c,15px 8.5px 3px #cd5c5c;
+    text-shadow: 2px 2px 2px #ff0000,15px 8.5px 3px #ff0000;
 }
 
 .font-shadow-three {
+    text-shadow: 2px 2px 2px #ff69b4,15px 8.5px 3px #ff69b4;
+}
+
+.font-shadow-four {
+    text-shadow: 2px 2px 2px #dc143c,15px 8.5px 3px #dc143c;
+}
+
+.font-shadow-five {
+    text-shadow: 2px 2px 2px #ba55d3,15px 8.5px 3px #ba55d3;
+}
+
+.font-shadow-six {
+    text-shadow: 2px 2px 2px #00bfff,15px 8.5px 3px #00bfff;
+}
+
+.font-shadow-seven {
     text-shadow: 2px 2px 2px #ff7f50,15px 8.5px 3px #ff7f50;
 }
 
