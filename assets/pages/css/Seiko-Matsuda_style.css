@@ -1,12 +1,12 @@
 body {
-    background-color: #cd5c5c;
+    background-color: #ff69b4;
     font-family: "Helvetica Neue",'UD デジタル 教科書体 NP-B',  "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
     color: #000;
     margin: 0;
     padding: 0;
 }
 
-.YMO {
+.Seiko {
     display: flex;
     justify-content: center;
     align-items: center;

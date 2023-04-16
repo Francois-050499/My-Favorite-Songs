@@ -14,7 +14,8 @@ body {
                 radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) -130px -170px,
                 radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) 130px 370px,
                 radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.2) 13%, rgba(255,255,255,0) 14%) 0 0,
-                linear-gradient(45deg, #ded46e 0%, #a7be70 20%, #5aa572 30%, #53a8a6 40%, #49aad2 50%, #5d87b7 60%, #695c98 70%, #a1689a 80%, #ce749c 90%, #cf737a 100%);
+                linear-gradient(45deg, #ded46e 0%, #a7be70 20%, #5aa572 30%, #53a8a6 40%, #49aad2 50%,
+                 #5d87b7 60%, #695c98 70%, #a1689a 80%, #ce749c 90%, #cf737a 100%);
                 background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 120% 120%;
                 background-color: #a1689a;
 }
